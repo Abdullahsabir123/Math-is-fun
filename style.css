@@ -1,0 +1,42 @@
+.container {
+    border-radius: 30px;
+    background: rgba(0, 0, 255, 0.135);
+    padding: 40px;
+    text-align: end;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+    border: 2px solid rgba(0, 0, 255, 0.135);
+    height: 80vh;
+    width: 80vw;
+    margin: auto;
+}
+
+.items {
+    border-radius: 5px;
+    background: rgba(0, 0, 255, 0.154);
+    padding: 10px 7px;
+}
+
+div.items:hover{
+    background: rgba(255, 255, 0, 0.144);
+}
+
+.container1 {
+    grid-gap: 10px;
+    padding: 5px;
+    text-align: end;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    grid-column: 1/4;
+}
+
+.wid {
+    width: 225px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
